@@ -34,7 +34,7 @@ _**amount** - обязательное значение_
 
 ### Пример работы
 
-`maxBy(func,arr);` -> _maxItem_
+`maxBy(func, arr);` -> _maxItem_
 
 ## minBy
 
@@ -48,34 +48,34 @@ _**amount** - обязательное значение_
 
 ### Пример работы
 
-`minBy(func,arr);` -> _minItem_
+`minBy(func, arr);` -> _minItem_
 
 ## splitEvery
 
-**splitEvery** -
+**splitEvery** - разбивает коллекцию на фрагменты указанной длины
 
-| Prop       | Type   | Description |
-| ---------- | ------ | ----------- |
-| n          | number |             |
-| list       | array  |             |
-| **return** | array  |             |
+| Prop       | Type   | Description                    |
+| ---------- | ------ | ------------------------------ |
+| n          | number | длинна фрагмента               |
+| list       | array  | коллекция элементов            |
+| **return** | array  | массив поделенный на фрагменты |
 
 ### Пример работы
 
-`splitEvery();` -> _._
+`splitEvery(3, '321123321');` -> _['321','123','321']_
 
 ## toInt
 
-**toInt** -
+**toInt** - переводит строку в целое число, убирая из строки все символы кроме цифр
 
-| Prop       | Type   | Description |
-| ---------- | ------ | ----------- |
-| value      | string |             |
-| **return** | number |             |
+| Prop       | Type   | Description       |
+| ---------- | ------ | ----------------- |
+| value      | string | исходная строка   |
+| **return** | number | приведенное число |
 
 ### Пример работы
 
-`toInt();` -> _._
+`toInt('1000xs');` -> _1000_
 
 ## logger
 
