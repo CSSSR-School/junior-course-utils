@@ -10,5 +10,6 @@ export {
     logger,
     maxBy,
     minBy,
+    toInt,
     splitEvery
 };
